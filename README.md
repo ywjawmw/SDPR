@@ -1,8 +1,6 @@
 # CLEPR: Contrastive Learning Enhanced Prescription Recommendation
 This is our Pytorch implementation for the paper:
 
-Author: Wenjing Yue
-
 ## Introduction
 Contrastive Learning Enhanced Prescription Recommendation (CLEPR) is a two-stage method to model the TCM treatment process as a four-partite graph, which can effectively capture the relationship among symptoms, syndromes, therapeutic methods, and herbs.
 
