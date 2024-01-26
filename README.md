@@ -70,15 +70,15 @@ Some important hyperparameters:
 We provide one public TCM dataset: TCM. \data\Herb
 * `train_id.txt`
   * Train file.
-  * Each line is 'symptomID1 symptomID2 ...\t herbID1 herbID2 ...\n'.
+  * Each line is 'symptom ID1 symptom ID2 ... \t herb ID1 herb ID2 ...\n'.
   * Every observed interaction means symptom s once interacted herb h, symptom set sc once interacted prescription p
   
 * `valid_id.txt`
   * Validation file.
-  * Each line is 'symptomID1 symptomID2 ...\t herbID1 herbID2 ...\n'.
+  * Each line is 'symptom ID1 symptom ID2 ...\t herb ID1 herb ID2 ...\n'.
 
 * `test_id.txt`
   * Test file.
-  * Each line is 'symptomID1 symptomID2 ...\t herbID1 herbID2 ...\n'.
+  * Each line is 'symptom ID1 symptom ID2 ...\t herb ID1 herb ID2 ...\n'.
 * `x.npz`
  * entity interaction matrix
