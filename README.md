@@ -1,8 +1,8 @@
-# CLEPR: Contrastive Learning Enhanced Prescription Recommendation
+# SDPR: Prescription Recommendation with Syndrome Differentiation
 This is our Pytorch implementation for the paper:
 
 ## Introduction
-Contrastive Learning Enhanced Prescription Recommendation (CLEPR) is a two-stage method to model the TCM treatment process as a four-partite graph, which can effectively capture the relationship among symptoms, syndromes, therapeutic methods, and herbs.
+We propose a new four-partite graph modeling paradigm that enables prescription recommendation models to represent the four steps of SD. Based on this paradigm, we design a prescription recommendation model, SDPR, which includes four modules corresponding to the steps of SD. We introduce a graph neural network-based entity representation module to enhance symptom and herb representation. To address the challenges of modeling syndrome and therapeutic method information, we propose a symptom set aggregator and an herb set aggregator. Our pre-training strategy for inducing syndrome and the therapeutic method-aware contrastive learning framework can model the complex relationships among symptoms, syndromes, therapeutic methods, and herbs. Finally, we integrate these modules into a multi-task learning framework to complete the SD analysis. Experiments on a public prescription recommendation dataset demonstrate that our model accurately recommends herbs and retrieves existing prescriptions, showing that the four-partite graph paradigm enhances precise herb prescribing.
 
 ## Requirement
 The code has been tested running under Python 3.7.0. The required packages are as follows:
